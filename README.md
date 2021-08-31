@@ -6,7 +6,8 @@ This Project shows the list of Employees which are stored in the In-Memory H2 Da
 
 Using the following endpoints, different operations can be achieved:
 
-- POST -> `http://localhost:8080/employees/load` - Add new employees using the Employees model. Eg:{ "name": "Virat", "teamName": "Testing","email":"v@gmail.com","mobile":"987654321","salary": 100 }
+- POST -> `http://localhost:8080/employees/load` - Add new employees using the Employees model. 
+`Eg:{ "name": "Virat", "teamName": "Testing","email":"v@gmail.com","mobile":"987654321","salary": 100 }`
 
 
 - GET -> `http://localhost:8080/employees/all` - This returns the list of employees in the Employee table which is created in H2
